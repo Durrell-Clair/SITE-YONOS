@@ -1,0 +1,1823 @@
+/* Debut style html, body */
+
+body{
+    /* height: 300em; */
+    margin: 0px;
+    padding: 0px;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    overflow-x: hidden;
+    background-image: url("../images/img-paral.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 160em;
+    background-position: center;
+    background-position-x: -35em;
+}
+/* Fin style html, body */
+
+/* ##############################################################################################*/
+/*---------------------------------------- Debut style header -----------------------------------*/
+/* ##############################################################################################*/
+header{
+    height: 40em;
+    width: 100%;
+    background-image: url("../images/gym-accueil.jpg");
+    background-size: 155em;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-position-x: 50%;
+    background-position-y: 8.5%;
+}
+/* Fin style header */
+/* -------------------------Debut style barre de navigation -------------------------------------*/
+nav{
+    padding: 1%;
+    padding-top: 1.5%;
+    height: 5%;
+    width: 100%;
+    background-color: transparent;
+    z-index: 1;
+    align-items: center;
+    position: relative;
+}
+#scroll-container{
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    margin-top: -1.5%;
+    padding-bottom: 1.5%;
+    margin-left: -2%;
+}
+#scroll-container, nav li{
+    display: inline;
+    padding-top: 1%;
+}
+
+.scrolled{
+    background-color: black;
+}
+
+nav li a{
+    color: white;
+    margin-right: 2%;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+/*-------------------------------------- Fin barre de navigation --------------------------------------------------*/
+
+/*----------------------------------------------- Debut banniere --------------------------------------------------*/
+.banner{
+    width: 45%;
+    background-color: black;
+    color: white;
+    height: 100%;
+    margin-top: -6.8%;
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 0%;
+    box-shadow: 70px 0px 90px black;
+}
+.banner h1{
+    font-size: 7.3em;
+    font-weight: bold;
+    margin-bottom: 1%;
+    margin-top: 30%;
+}
+.banner p{
+    font-size: xx-large;
+    margin: 0px;
+}
+.banner button{
+    border-radius: 6px;
+}
+button{
+    background-color: transparent;
+    color: white;
+    width: 12em;
+    line-height: 3em;
+    font-size: medium;
+    margin: 2%;
+    margin-top: 5%;
+    margin-left: 0%;
+}
+button:hover{
+    background-color: #ffffff;
+    color: black;
+}
+/*------------------------------------------------------ Fin banniere --------------------------------------------------*/
+/* ------------------------------------------ Fin style barre de navigation --------------------------------------------*/
+
+/* #####################################################################################################################*/
+/* --------------------------------------- Debut style section se prendre en main --------------------------------------*/
+/* #####################################################################################################################*/
+
+/*----------------------------------------------- Debut style section home ---------------------------------------------*/
+h2{
+    text-align: center;
+    font-size: 5em;
+    margin-top: 0%;
+    padding-top: 1%;
+    background-color: whitesmoke;
+}
+/*--------------------------------------------- Debut style section proposition ----------------------------------------*/
+.proposition{
+    display: flex;
+    flex-direction: row;
+    margin: 5%;
+    background-color: whitesmoke;
+}
+.propo{
+    margin: 2%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 3px 6px 50px black;
+}
+[class*="img-"]{
+    line-height: 29em;
+    display: block;
+    width: 100%;
+    background-position-y: -4em;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-1{
+    background-image: url("../images/img-info-1.jpg");   
+}
+.img-2{
+    background-image: url("../images/img-info-2.jpg");   
+}
+.img-3{
+    background-image: url("../images/img-info-3.jpg");   
+}
+.presentation{
+    text-align: center;
+    font-size: 1.5em;
+    padding: 1%;
+    margin: 5%;
+
+}
+/* ------------------------------------------ Fin style section proposition --------------------------------------------*/
+
+/* -------------------------------------------- Debut style section lieux ----------------------------------------------*/
+.lieux{
+    display: flex;
+    flex-direction: row;
+    margin: 0%;
+    background-color: black;
+    color: white;
+    align-content: center;
+    align-items: center;
+    padding: 20%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+.lieu{
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.lieu h3{
+    font-size: 4em;
+}
+.lieu p{
+    padding: -1%;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-top: -8%;
+    font-size: 1.5em;
+}
+/* ----------------------------------------------- Fin style section lieu ----------------------------------------------*/
+/* #####################################################################################################################*/
+/* ----------------------------------------- Debut style section les equipements ---------------------------------------*/
+/* #####################################################################################################################*/
+.home{
+    background-color: whitesmoke;
+}
+.tools{
+    width: 100%;
+    align-content: center;
+    padding:2%;
+    background-color: whitesmoke;
+}
+.tools h1{
+    text-align: center;
+    font-size: 5em;
+    margin-top: 0%;
+    padding-top: 2%;
+    margin-bottom: 10%;
+    background-color: whitesmoke;
+    width: 100%;
+}
+[class*="line-tools-"]{
+    width: 100%;
+    align-items: center;
+    margin: 6%;
+    margin-top: -6%;
+    display: flex;
+}
+[class*="img-tools-"]{
+    line-height: 25.2em;
+    width: 26%;
+    margin: 1%;
+    background-position-y: -4em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    cursor: pointer;
+}
+.img-tools-1{
+    background-image: url("../images/img1-equip.jpg");   
+}
+.img-tools-2{
+    background-image: url("../images/img2-equip.jpg");   
+}
+.img-tools-3{
+    background-image: url("../images/img3-equip.jpg");   
+}
+.img-tools-4{
+    background-image: url("../images/img4-equip.jpg");   
+}
+.img-tools-5{
+    background-image: url("../images/img5-equip.jpg");   
+}
+.img-tools-6{
+    background-image: url("../images/img6-equip.jpg");   
+}
+.img-tools-7{
+    background-image: url("../images/img7-equip.jpg");   
+}
+.img-tools-8{
+    background-image: url("../images/img8-equip.jpg");   
+}
+.img-tools-9{
+    background-image: url("../images/img9-equip.jpg");   
+}
+
+.bloc-modale {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.75);
+    z-index: 1000;
+    display: none;
+}
+.active-modale {
+    display: block;
+}
+.bloc-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 90%;
+    display: flex;
+}
+.bloc-modale img {
+    width: 100%;
+}
+.fermeture-modale {
+    position: absolute;
+    z-index: 4000;
+    top: 5%;
+    right: 5%;
+    width: 60px;
+    height: 60px;
+    font-size: 22px;
+    color: white;
+    background: red;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* --------------------------------------------- Fin style section equipements -----------------------------------------*/
+/* #####################################################################################################################*/
+/* ----------------------------------------- Debut style section courage et tarif --------------------------------------*/
+/* #####################################################################################################################*/
+.courage-box{
+
+    background-color: transparent;
+    text-align: center;
+    width: 100%;
+    height: 40em;
+    padding-top: 13%;
+}
+.courage-box h1{
+    font-size: 9em;
+    color: #ffffff;
+    height: 4em;
+}
+.tarif{
+    background-color: whitesmoke;
+    margin: 0%;
+    align-content: center;
+    align-items: center;
+    padding: 20%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    color: black;
+}
+.tarif h1{
+    font-size: 4em;
+    text-align: center;
+    padding-top: -3%;
+}
+.tarif aside h3{
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: -5%;
+}
+[class*="tarif-"]{
+    display: flex;
+    flex-direction: row;
+    padding-top: -5%;
+}
+.tarif-basic aside, .tarif-pro aside{
+    background-color: black;
+    border-radius: 6px;
+    color: white;
+    margin: 2%;
+    width: 40%;
+    font-size: 2.5em;
+    margin-top: -2%;
+    padding: 2%;
+    padding-top: 5%;
+    height: 50%;
+    text-align: center;
+    line-height: 1.4em;
+}
+.tarif-pro{
+    width: 100%;
+    padding-left: 25%;
+}
+.tarif-pro aside{
+    margin-top: 2%;
+
+}
+
+.basic h3, .complet h3{
+    margin-top: -5%;
+}
+.complet p, .basic p{
+    font-size: 2em;
+    padding-top: -5px;
+    padding-bottom: -5px;
+}
+span{
+    display: block;
+}
+.container{
+    display: flex;
+    flex-direction: row;    
+    width: 100%;
+    margin-left: 25%;
+}
+.chiffre{
+    font-size: 2.4em;
+}
+.gauche{
+    font-size: 0.7em;
+    margin-top: -8%;
+    line-height: 1.8em;
+}
+.unite{
+    margin-left: -30%;
+    padding-top: -2%;
+}
+.options{
+    font-size: 0.5em;
+}
+.icon{
+    width: 5%;
+    height: 20%;
+    margin: -1.5%;
+    padding-right: 1%;
+    line-height: 1.2em;
+}
+/* --------------------------------------------- Fin style section courage et tarif ------------------------------------*/
+/* #####################################################################################################################*/
+/* --------------------------------------------- Debut style section contact -------------------------------------------*/
+/* #####################################################################################################################*/
+#contact {
+    margin-bottom: -15%;
+}
+.contact{
+    background-color: whitesmoke;
+    border-top: 1px dashed black;
+    width: 100%;
+    align-items: center;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+.contact h2{
+    font-size: 3em;
+    margin-top: 1.5%;
+}
+form{
+    width: 50%;
+    margin: 25%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-bottom: 3%;
+    text-align: center;
+}
+form p{
+    text-align: left;
+    font-size: 1.2em;
+}
+input, textarea{
+    width: 100%;
+    line-height: 2.5em;
+}
+textarea{
+    width: 100%;
+    height: 25%;
+    line-height: 1.5em;
+}
+form button{
+    border-radius: 6px;
+    border: 1px solid black;
+    background-color: whitesmoke;
+    color: black;
+    line-height: 2em;
+}
+form button:hover{
+    background-color: darkslategray;
+    color: white;
+}
+
+input:focus {
+    border-color: rgba( 82, 168, 236, 0.75) ;
+    -moz-box-shadow: 0 0 8px rgba( 82, 168, 236, 0.5) ;
+    -webkit-box-shadow: 0 0 8px rgba( 82, 168, 236, 0.5) ;
+    box-shadow: 0 0 8px rgba( 82, 168, 236, 0.5) ;
+}
+
+.incorrect {
+    border-color: rgba(191,68,68,0.75) ;
+    color: blue;
+}
+.incorrect:focus {
+    border-color: rgba(191,68,68,0.75) ;
+    -moz-box-shadow: 0 0 8px rgba(191,68,68,0.5) ;
+    -webkit-box-shadow: 0 0 8px rgba(191,68,68,0.5) ;
+    box-shadow: 0 0 8px rgba(191,68,68,0.5) ;
+}
+.tooltip{
+    background-color: lightgreen;
+    width: 100%;
+    margin-bottom: 2%;
+}
+/* -------------------------------------------------- Fin style section contact ----------------------------------------*/
+/* #####################################################################################################################*/
+/* ---------------------------------------------- Debut style section footer -------------------------------------------*/
+/* #####################################################################################################################*/
+footer{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 3em;
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: -50%;
+    padding-top: 0.5%;
+    border-top: 1px dashed black;
+}
+footer p{
+    margin-top: 1%;
+}
+/* #####################################################################################################################*/
+/* ***************************************************** Debut responsive ********************************************* */
+/* #####################################################################################################################*/
+
+/* ******************************************************************************************************************** */
+/* **************************************************** max-width: 520px ********************************************** */
+/* ******************************************************************************************************************** */
+@media screen and (max-width: 520px)
+{
+    /*--------------------------------------- Debut responsive html, body ----------------------------------------------*/
+    html, body{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y: 50%;
+        background-position-x: 50%;
+
+    }
+    /* Fin style html, body */
+    /* -------------------header---------------- */
+    header{
+        background-size: 45em;
+        background-position-x: 45%;
+        background-position-y: 8%;
+        height: 30%;
+    }
+    /* Fin style header */
+    /* -------------------------Debut style barre de navigation -------------------------------------*/
+    nav li a{
+        font-size: 0.8em;
+    }
+    /*---------------------------------------------- Fin barre de navigation -------------------------------------------*/
+
+    /*------------------------------------------------ Debut banniere --------------------------------------------------*/
+    .banner{
+        margin-top: -5%;
+    }
+    .banner h1{
+        font-size: 2.4em;
+        margin-top: 25%;
+    }
+    .banner p{
+        font-size: 0.6em;
+    }
+    .banner button{
+        border-radius: 4px;
+        font-size: x-small;
+    }
+    button{
+        width: 7em;
+        line-height: 1.7em;
+        font-size: small;
+    }
+    /*----------------------------------------------- Fin responsive banniere -----------------------------------------*/
+    /* ------------------------------------------ Fin responsive barre de navigation ----------------------------------*/
+
+    /* ------------------------------------- Debut responsive section se prendre en main ------------------------------*/
+    /*-------------------------------------------- Debut responsive section home --------------------------------------*/
+    h2{
+        font-size: 2em;
+    }
+    /*---------------------------------------- Debut responsive section proposition -----------------------------------*/
+    .proposition{
+        flex-direction: column;
+        margin-left: 15%;
+    }
+    .propo{
+        margin: 2%;
+        width: 85%;
+        flex-direction: column;
+    }
+    [class*="img-"]{
+        line-height: 23em;
+        background-position: bottom;
+        background-size: cover;
+    }
+    .presentation{
+        text-align: center;
+        font-size: 1.3em;
+    }
+    /* ---------------------------------- Fin responsive section proposition ----------------------------------------*/
+    /* ----------------------------------- Debut responsive style section lieux -------------------------------------*/
+    .lieux{
+        flex-direction: column;
+    }
+    .lieu h3{
+        font-size: 2.9em;
+        margin-top: -2%;
+    }
+    .lieu p{
+        font-size: 1.2em;
+    }
+    /* -------------------------------------------- Fin responsive section lieu ----------------------------------------*/
+    /* ------------------------------------- Debut responsive section les equipements ----------------------------------*/
+    .tools h1{
+        font-size: 3em;
+    }
+    [class*="line-tools-"]{
+        width: 90%;
+        margin: 3%;
+        margin-top: -6%;
+        display: flex;
+        flex-direction: column;
+    }
+    [class*="img-tools-"]{
+        width: 100%;
+        margin: 3%;
+    }
+    .bloc-img {
+        width: 100%;
+        height: 60%;
+    }
+    /* ---------------------------------------- Fin responsive section equipements -------------------------------------*/
+    /* -------------------------------------- Debut responsive section courage et tarif --------------------------------*/
+    .courage-box{
+        height: 70%;
+        margin-top: 10%;
+    }
+    .courage-box h1{
+        font-size: 5em;
+    }
+    .tarif h1{
+        font-size: 3em;
+        margin: -2.5%;
+    }
+    .tarif aside h3{
+        font-size: 1.1em;
+    }
+    [class*="tarif-"]{
+        flex-direction: column;
+    }
+    .tarif-basic aside, .tarif-pro aside{
+        width: 90%;
+        font-size: 2.5em;
+        margin-top: 2%;
+        height: 50%;
+        line-height: 1em;
+    }
+    .tarif-pro{
+        padding-left: 0%;
+    }
+
+    .basic h3, .complet h3{
+        margin-top: 2%;
+    }
+    .complet p, .basic p{
+        font-size: 2em;
+        padding-top: -5px;
+        padding-bottom: -5px;
+    }
+    span{
+        display: block;
+    }
+    .chiffre{
+        font-size: 2.2em;
+    }
+    .gauche{
+        font-size: 0.6em;
+        line-height: 1.7em;
+    }
+    .options{
+        font-size: 0.4em;
+    }
+    .icon{
+        margin: -1.5%;
+    }
+    /* --------------------------------------------- Fin responsive section courage et tarif ------------------------------------*/
+    /* --------------------------------------------- Debut responsive section contact -------------------------------------------*/
+    .contact{
+        width: 100%;
+    }
+    .contact h2{
+        font-size: 2.5em;
+        margin-top: 6%;
+    }
+    form{
+        width: 70%;
+        margin: 15%;
+    }
+    form p{
+        text-align: left;
+        font-size: 1em;
+    }
+    input, textarea{
+        line-height: 2em;
+    }
+    
+    form button{
+        border-radius: 4px;
+    }
+    /* --------------------------------------------- Fin responsive section contact-------------------------------------*/
+}
+
+/* ******************************************************************************************************************** */
+/* ******************************************* min-width: 520px and max-width: 600px ********************************** */
+/* ******************************************************************************************************************** */
+@media screen and (min-width: 520px) and (max-width: 600px)
+{
+    /*--------------------------------------- Debut responsive html, body ----------------------------------------------*/
+    html, body{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y: 50%;
+        background-position-x: 50%;
+
+    }
+    /* Fin style html, body */
+    /* -------------------header---------------- */
+    header{
+        background-size: 60em;
+        background-position-x: 50%;
+        background-position-y: 8%;
+        height: 40%;
+    }
+    /* Fin style header */
+    /* -------------------------Debut style barre de navigation -------------------------------------*/
+    nav li a{
+        font-size: 0.9em;
+    }
+    /*---------------------------------------------- Fin barre de navigation -------------------------------------------*/
+
+    /*------------------------------------------------ Debut banniere --------------------------------------------------*/
+    .banner{
+        margin-top: -5%;
+    }
+    .banner h1{
+        font-size: 2.8em;
+        margin-top: 25%;
+    }
+    .banner p{
+        font-size: 0.7em;
+    }
+    .banner button{
+        border-radius: 4px;
+        font-size: x-small;
+    }
+    button{
+        width: 8em;
+        line-height: 1.8em;
+    }
+    /*----------------------------------------------- Fin responsive banniere -----------------------------------------*/
+    /* ------------------------------------------ Fin responsive barre de navigation ----------------------------------*/
+
+    /* ------------------------------------- Debut responsive section se prendre en main ------------------------------*/
+    /*-------------------------------------------- Debut responsive section home --------------------------------------*/
+    h2{
+        font-size: 2em;
+    }
+    /*---------------------------------------- Debut responsive section proposition -----------------------------------*/
+    .proposition{
+        flex-direction: column;
+        margin-left: 15%;
+    }
+    .propo{
+        margin: 2%;
+        width: 85%;
+        flex-direction: column;
+    }
+    [class*="img-"]{
+        line-height: 23em;
+        background-position: bottom;
+        background-size: cover;
+    }
+    .presentation{
+        text-align: center;
+        font-size: 1.3em;
+    }
+    /* ---------------------------------- Fin responsive section proposition ----------------------------------------*/
+    /* ----------------------------------- Debut responsive style section lieux -------------------------------------*/
+    .lieux{
+        flex-direction: column;
+    }
+    .lieu h3{
+        font-size: 2.9em;
+        margin-top: -2%;
+    }
+    .lieu p{
+        font-size: 1.2em;
+    }
+    /* -------------------------------------------- Fin responsive section lieu ----------------------------------------*/
+    /* ------------------------------------- Debut responsive section les equipements ----------------------------------*/
+    .tools h1{
+        font-size: 3em;
+    }
+    [class*="line-tools-"]{
+        width: 90%;
+        margin: 3%;
+        margin-top: -6%;
+        display: flex;
+        flex-direction: column;
+    }
+    [class*="img-tools-"]{
+        width: 100%;
+        margin: 3%;
+    }
+    .bloc-img {
+        width: 100%;
+        height: 65%;
+    }
+    /* ---------------------------------------- Fin responsive section equipements -------------------------------------*/
+    /* -------------------------------------- Debut responsive section courage et tarif --------------------------------*/
+    .courage-box{
+        height: 70%;
+        margin-top: 10%;
+    }
+    .courage-box h1{
+        font-size: 5em;
+    }
+    .tarif h1{
+        font-size: 3em;
+        margin: -2.5%;
+    }
+    .tarif aside h3{
+        font-size: 1.1em;
+    }
+    [class*="tarif-"]{
+        flex-direction: column;
+    }
+    .tarif-basic aside, .tarif-pro aside{
+        width: 90%;
+        font-size: 2.5em;
+        margin-top: 2%;
+        height: 50%;
+        line-height: 1em;
+    }
+    .tarif-pro{
+        padding-left: 0%;
+    }
+
+    .basic h3, .complet h3{
+        margin-top: 2%;
+    }
+    .complet p, .basic p{
+        font-size: 2em;
+        padding-top: -5px;
+        padding-bottom: -5px;
+    }
+    span{
+        display: block;
+    }
+    .chiffre{
+        font-size: 2.2em;
+    }
+    .gauche{
+        font-size: 0.6em;
+        line-height: 1.7em;
+    }
+    .options{
+        font-size: 0.4em;
+    }
+    .icon{
+        margin: -1.5%;
+    }
+    /* --------------------------------------------- Fin responsive section courage et tarif ------------------------------------*/
+    /* --------------------------------------------- Debut responsive section contact -------------------------------------------*/
+    .contact{
+        width: 100%;
+    }
+    .contact h2{
+        font-size: 2.5em;
+        margin-top: 6%;
+    }
+    form{
+        width: 70%;
+        margin: 15%;
+    }
+    form p{
+        text-align: left;
+        font-size: 1em;
+    }
+    input, textarea{
+        line-height: 2em;
+    }
+    
+    form button{
+        border-radius: 4px;
+    }
+    footer{
+        height: 4em;
+        margin-top: -5em;
+    }
+    footer p{
+        margin-top: 1.5em;
+    }
+    /* -------------------------------------------------- Fin style section contact ----------------------------------------*/
+}
+/* ******************************************************************************************************************** */
+/* ******************************************* min-width: 600px and max-width: 720px ********************************** */
+/* ******************************************************************************************************************** */
+@media screen and (min-width: 600px) and (max-width: 720px)
+{
+    /*--------------------------------------- Debut responsive html, body ----------------------------------------------*/
+    html, body{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y: 50%;
+        background-position-x: 50%;
+
+    }
+    /* Fin style html, body */
+    /* -------------------header---------------- */
+    header{
+        background-size: 75em;
+        background-position-x: 50%;
+        background-position-y: 8%;
+        height: 50%;
+    }
+    /* Fin style header */
+    /* -------------------------Debut style barre de navigation -------------------------------------*/
+    nav li a{
+        font-size: 1em;
+    }
+    /*---------------------------------------------- Fin barre de navigation -------------------------------------------*/
+
+    /*------------------------------------------------ Debut banniere --------------------------------------------------*/
+    .banner{
+        margin-top: -5%;
+    }
+    .banner h1{
+        font-size: 3.2em;
+        margin-top: 25%;
+    }
+    .banner p{
+        font-size: 1em;
+    }
+    .banner button{
+        border-radius: 4px;
+        font-size: small;
+    }
+    button{
+        width: 9em;
+        line-height: 2em;
+    }
+    /*----------------------------------------------- Fin responsive banniere -----------------------------------------*/
+    /* ------------------------------------------ Fin responsive barre de navigation ----------------------------------*/
+
+    /* ------------------------------------- Debut responsive section se prendre en main ------------------------------*/
+    /*-------------------------------------------- Debut responsive section home --------------------------------------*/
+    h2{
+        font-size: 2.5em;
+    }
+    /*---------------------------------------- Debut responsive section proposition -----------------------------------*/
+    .proposition{
+        flex-direction: column;
+        margin-left: 15%;
+    }
+    .propo{
+        margin: 2%;
+        width: 85%;
+        flex-direction: column;
+    }
+    [class*="img-"]{
+        line-height: 25em;
+        background-position: center;
+        background-size: cover;
+    }
+    .presentation{
+        text-align: center;
+        font-size: 1.3em;
+    }
+    .bloc-img {
+        width: 100%;
+        height: 70%;
+    }
+    /* ---------------------------------- Fin responsive section proposition ----------------------------------------*/
+    /* ----------------------------------- Debut responsive style section lieux -------------------------------------*/
+    .lieux{
+        flex-direction: column;
+    }
+    .lieu h3{
+        font-size: 2.9em;
+        margin-top: -2%;
+    }
+    .lieu p{
+        font-size: 1.2em;
+    }
+    /* -------------------------------------------- Fin responsive section lieu ----------------------------------------*/
+    /* ------------------------------------- Debut responsive section les equipements ----------------------------------*/
+    .tools h1{
+        font-size: 3em;
+    }
+    [class*="line-tools-"]{
+        width: 90%;
+        margin: 3%;
+        margin-top: -6%;
+        display: flex;
+        flex-direction: column;
+    }
+    [class*="img-tools-"]{
+        width: 100%;
+        margin: 3%;
+    }
+    /* ---------------------------------------- Fin responsive section equipements -------------------------------------*/
+    /* -------------------------------------- Debut responsive section courage et tarif --------------------------------*/
+    .courage-box{
+        height: 70%;
+        margin-top: 10%;
+    }
+    .courage-box h1{
+        font-size: 6em;
+    }
+    .tarif h1{
+        font-size: 3em;
+        margin: -2.5%;
+    }
+    .tarif aside h3{
+        font-size: 1.1em;
+    }
+    [class*="tarif-"]{
+        flex-direction: column;
+    }
+    .tarif-basic aside, .tarif-pro aside{
+        width: 90%;
+        font-size: 2.5em;
+        margin-top: 2%;
+        height: 50%;
+        line-height: 1em;
+    }
+    .tarif-pro{
+        padding-left: 0%;
+    }
+
+    .basic h3, .complet h3{
+        margin-top: 2%;
+    }
+    .complet p, .basic p{
+        font-size: 2em;
+        padding-top: -5px;
+        padding-bottom: -5px;
+    }
+    span{
+        display: block;
+    }
+    .chiffre{
+        font-size: 2.2em;
+    }
+    .gauche{
+        font-size: 0.6em;
+        line-height: 1.7em;
+    }
+    .options{
+        font-size: 0.4em;
+    }
+    .icon{
+        margin: -1.5%;
+    }
+    /* --------------------------------------------- Fin responsive section courage et tarif ------------------------------------*/
+    /* --------------------------------------------- Debut responsive section contact -------------------------------------------*/
+    .contact{
+        width: 100%;
+    }
+    .contact h2{
+        font-size: 3em;
+        margin-top: 6%;
+    }
+    form{
+        width: 70%;
+        margin: 15%;
+    }
+    form p{
+        text-align: left;
+        font-size: 1em;
+    }
+    input, textarea{
+        line-height: 2em;
+    }
+    
+    form button{
+        border-radius: 4px;
+    }
+    /* -------------------------------------------------- Fin style section contact ----------------------------------------*/
+}
+
+/* ******************************************************************************************************************** */
+/* ******************************************* min-width: 720px and max-width: 900px ********************************** */
+/* ******************************************************************************************************************** */
+@media screen and (min-width: 720px) and (max-width: 900px)
+{
+    /*--------------------------------------- Debut responsive html, body ----------------------------------------------*/
+    html, body{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y: 50%;
+        background-position-x: 50%;
+
+    }
+    /* Fin style html, body */
+    /* -------------------header---------------- */
+    header{
+        background-size: 90em;
+        background-position-x: 50%;
+        background-position-y: 8%;
+        height: 80%;
+    }
+    /* Fin style header */
+    /* -------------------------Debut style barre de navigation -------------------------------------*/
+    #scroll-container{
+        margin-left: -6%;
+    }
+    nav li a{
+        font-size: 1.3em;
+    }
+    /*---------------------------------------------- Fin barre de navigation -------------------------------------------*/
+
+    /*------------------------------------------------ Debut banniere --------------------------------------------------*/
+    .banner{
+        margin-top: -5%;
+    }
+    .banner h1{
+        font-size: 3.8em;
+        margin-top: 25%;
+    }
+    .banner p{
+        font-size: 1.5em;
+    }
+    .banner button{
+        border-radius: 4px;
+        font-size: small;
+    }
+    button{
+        width: 11   em;
+        line-height: 2.4em;
+    }
+    /*----------------------------------------------- Fin responsive banniere -----------------------------------------*/
+    /* ------------------------------------------ Fin responsive barre de navigation ----------------------------------*/
+
+    /* ------------------------------------- Debut responsive section se prendre en main ------------------------------*/
+    /*-------------------------------------------- Debut responsive section home --------------------------------------*/
+    h2{
+        font-size: 2.6em;
+        padding-top: 5%;
+    }
+    /*---------------------------------------- Debut responsive section proposition -----------------------------------*/
+    .proposition{
+        flex-direction: row;
+        margin-left: 5%;
+    }
+    .propo{
+        margin: 2%;
+        width: 85%;
+        flex-direction: column;
+    }
+    [class*="img-"]{
+        line-height: 25em;
+        background-position: center;
+        background-size: cover;
+    }
+    .presentation{
+        text-align: center;
+        font-size: 1.3em;
+    }
+    /* ---------------------------------- Fin responsive section proposition ----------------------------------------*/
+    /* ----------------------------------- Debut responsive style section lieux -------------------------------------*/
+    .lieux{
+        flex-direction: row;
+    }
+    .lieu h3{
+        font-size: 2.5em;
+        margin-top: -2%;
+    }
+    .lieu p{
+        font-size: 1.3em;
+    }
+    /* -------------------------------------------- Fin responsive section lieu ----------------------------------------*/
+    /* ------------------------------------- Debut responsive section les equipements ----------------------------------*/
+    .tools h1{
+        font-size: 3em;
+    }
+    [class*="line-tools-"]{
+        width: 95%;
+        margin: 0%;
+        margin-top: 2%;
+        display: flex;
+        flex-direction: row;
+    }
+    [class*="img-tools-"]{
+        width: 100%;
+        margin: 1%;
+        background-position: right;
+        background-position-x: 65%;
+    }
+    .bloc-img {
+        width: 100%;
+        height: 80%;
+    }
+    /* ---------------------------------------- Fin responsive section equipements -------------------------------------*/
+    /* -------------------------------------- Debut responsive section courage et tarif --------------------------------*/
+    .courage-box{
+        height: 70%;
+        margin-top: 10%;
+    }
+    .courage-box h1{
+        font-size: 7em;
+    }
+    .tarif h1{
+        font-size: 3em;
+        margin: -2%;
+    }
+    .tarif aside h3{
+        font-size: 1.1em;
+    }
+    [class*="tarif-"]{
+        flex-direction: row;
+    }
+    .tarif-basic aside, .tarif-pro aside{
+        width: 100%;
+        font-size: 2.5em;
+        margin-top: 2%;
+        height: 50%;
+        line-height: 1em;
+    }
+    .tarif-pro{
+        padding-left: 25%;
+        width: 50%;
+    }
+
+    .basic h3, .complet h3{
+        margin-top: 2%;
+    }
+    .complet p, .basic p{
+        font-size: 2em;
+        padding-top: -5px;
+        padding-bottom: -5px;
+    }
+    span{
+        display: block;
+    }
+    .chiffre{
+        font-size: 2.2em;
+    }
+    .gauche{
+        font-size: 0.6em;
+        line-height: 1.7em;
+    }
+    .options{
+        font-size: 0.4em;
+    }
+    .icon{
+        margin: -1.5%;
+    }
+    /* --------------------------------------------- Fin responsive section courage et tarif ------------------------------------*/
+    /* --------------------------------------------- Debut responsive section contact -------------------------------------------*/
+    .contact{
+        width: 100%;
+    }
+    .contact h2{
+        font-size: 3.2em;
+        margin-top: 3%;
+        margin-bottom: -10%;
+    }
+    form{
+        width: 70%;
+        margin: 15%;
+    }
+    form p{
+        text-align: left;
+        font-size: 1em;
+    }
+    input, textarea{
+        line-height: 2.5em;
+    }
+    
+    form button{
+        border-radius: 4px;
+    }
+    /* -------------------------------------------------- Fin style section contact ----------------------------------------*/
+}
+
+/* ******************************************************************************************************************** */
+/* ******************************************* min-width: 900px and max-width: 1024px ********************************** */
+/* ******************************************************************************************************************** */
+@media screen and (min-width: 900px) and (max-width: 1024px)
+{
+    /*--------------------------------------- Debut responsive html, body ----------------------------------------------*/
+    html, body{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y: 50%;
+        background-position-x: 50%;
+
+    }
+    /* Fin style html, body */
+    /* -------------------header---------------- */
+    header{
+        background-size: 120em;
+        background-position-x: 50%;
+        background-position-y: 8%;
+        height: 90%;
+    }
+    /* Fin style header */
+    /* -------------------------Debut style barre de navigation -------------------------------------*/
+    nav li a{
+        font-size: 1.2em;
+    }
+    /*---------------------------------------------- Fin barre de navigation -------------------------------------------*/
+
+    /*------------------------------------------------ Debut banniere --------------------------------------------------*/
+    .banner{
+        margin-top: -5%;
+    }
+    .banner h1{
+        font-size: 4.8em;
+        margin-top: 25%;
+    }
+    .banner p{
+        font-size: 1.3em;
+    }
+    .banner button{
+        border-radius: 4px;
+        font-size: medium;
+    }
+    button{
+        width: 11em;
+        line-height: 2.3em;
+    }
+    /*----------------------------------------------- Fin responsive banniere -----------------------------------------*/
+    /* ------------------------------------------ Fin responsive barre de navigation ----------------------------------*/
+
+    /* ------------------------------------- Debut responsive section se prendre en main ------------------------------*/
+    /*-------------------------------------------- Debut responsive section home --------------------------------------*/
+    h2{
+        font-size: 2.5em;
+    }
+    /*---------------------------------------- Debut responsive section proposition -----------------------------------*/
+    .proposition{
+        flex-direction: row;
+        margin-left: 5%;
+    }
+    .propo{
+        margin: 2%;
+        width: 85%;
+        flex-direction: column;
+    }
+    [class*="img-"]{
+        line-height: 25em;
+        background-position: center;
+        background-size: cover;
+    }
+    .presentation{
+        text-align: center;
+        font-size: 1.3em;
+    }
+    /* ---------------------------------- Fin responsive section proposition ----------------------------------------*/
+    /* ----------------------------------- Debut responsive style section lieux -------------------------------------*/
+    .lieux{
+        flex-direction: row;
+    }
+    .lieu h3{
+        font-size: 2.5em;
+        margin-top: -2%;
+    }
+    .lieu p{
+        font-size: 1.3em;
+    }
+    /* -------------------------------------------- Fin responsive section lieu ----------------------------------------*/
+    /* ------------------------------------- Debut responsive section les equipements ----------------------------------*/
+    .tools h1{
+        font-size: 3em;
+    }
+    [class*="line-tools-"]{
+        width: 95%;
+        margin: 0%;
+        margin-top: 2%;
+        display: flex;
+        flex-direction: row;
+    }
+    [class*="img-tools-"]{
+        width: 100%;
+        margin: 1%;
+        background-position: right;
+        background-position-x: 65%;
+    }
+    /* ---------------------------------------- Fin responsive section equipements -------------------------------------*/
+    /* -------------------------------------- Debut responsive section courage et tarif --------------------------------*/
+    .courage-box{
+        height: 70%;
+        margin-top: 10%;
+    }
+    .courage-box h1{
+        font-size: 7em;
+    }
+    .tarif h1{
+        font-size: 3em;
+        margin: -2%;
+    }
+    .tarif aside h3{
+        font-size: 1.1em;
+    }
+    [class*="tarif-"]{
+        flex-direction: row;
+    }
+    .tarif-basic aside, .tarif-pro aside{
+        width: 100%;
+        font-size: 2.5em;
+        margin-top: 2%;
+        height: 50%;
+        line-height: 1em;
+    }
+    .tarif-pro{
+        padding-left: 25%;
+        width: 50%;
+    }
+
+    .basic h3, .complet h3{
+        margin-top: 2%;
+    }
+    .complet p, .basic p{
+        font-size: 2em;
+        padding-top: -5px;
+        padding-bottom: -5px;
+    }
+    span{
+        display: block;
+    }
+    .chiffre{
+        font-size: 2.2em;
+    }
+    .gauche{
+        font-size: 0.6em;
+        line-height: 1.7em;
+    }
+    .options{
+        font-size: 0.4em;
+    }
+    .icon{
+        margin: -1.5%;
+    }
+    /* --------------------------------------------- Fin responsive section courage et tarif ------------------------------------*/
+    /* --------------------------------------------- Debut responsive section contact -------------------------------------------*/
+    .contact{
+        width: 100%;
+    }
+    .contact h2{
+        font-size: 3em;
+        margin-top: 3%;
+    }
+    form{
+        width: 70%;
+        margin: 15%;
+        margin-top: 2%;
+    }
+    form p{
+        text-align: left;
+        font-size: 1em;
+    }
+    input, textarea{
+        line-height: 2em;
+    }
+    
+    form button{
+        border-radius: 4px;
+    }
+    /* -------------------------------------------------- Fin style section contact ----------------------------------------*/
+}
+
+/* ******************************************************************************************************************** */
+/* ******************************************* min-width: 1024px and max-width: 1200px ********************************** */
+/* ******************************************************************************************************************** */
+@media screen and (min-width: 1024px) and (max-width: 1200px)
+{
+    /*--------------------------------------- Debut responsive html, body ----------------------------------------------*/
+    html, body{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y: 50%;
+        background-position-x: 50%;
+
+    }
+    /* Fin style html, body */
+    /* -------------------header---------------- */
+    header{
+        background-size: 120em;
+        background-position-x: 50%;
+        background-position-y: 8%;
+        height: 90%;
+    }
+    /* Fin style header */
+    /* -------------------------Debut style barre de navigation -------------------------------------*/
+    nav li a{
+        font-size: 1.2em;
+    }
+    /*---------------------------------------------- Fin barre de navigation -------------------------------------------*/
+
+    /*------------------------------------------------ Debut banniere --------------------------------------------------*/
+    .banner{
+        margin-top: -5%;
+    }
+    .banner h1{
+        font-size: 5.6em;
+        margin-top: 25%;
+    }
+    .banner p{
+        font-size: 1.5em;
+    }
+    .banner button{
+        border-radius: 4px;
+        font-size: medium  ;
+    }
+    button{
+        width: 10em;
+        line-height: 2.5em;
+    }
+    /*----------------------------------------------- Fin responsive banniere -----------------------------------------*/
+    /* ------------------------------------------ Fin responsive barre de navigation ----------------------------------*/
+
+    /* ------------------------------------- Debut responsive section se prendre en main ------------------------------*/
+    /*-------------------------------------------- Debut responsive section home --------------------------------------*/
+    h2{
+        font-size: 2.5em;
+    }
+    /*---------------------------------------- Debut responsive section proposition -----------------------------------*/
+    .proposition{
+        flex-direction: row;
+        margin-left: 5%;
+    }
+    .propo{
+        margin: 2%;
+        width: 85%;
+        flex-direction: column;
+    }
+    [class*="img-"]{
+        line-height: 25em;
+        background-position: center;
+        background-size: cover;
+    }
+    .presentation{
+        text-align: center;
+        font-size: 1.3em;
+    }
+    /* ---------------------------------- Fin responsive section proposition ----------------------------------------*/
+    /* ----------------------------------- Debut responsive style section lieux -------------------------------------*/
+    .lieux{
+        flex-direction: row;
+    }
+    .lieu h3{
+        font-size: 2.5em;
+        margin-top: -2%;
+    }
+    .lieu p{
+        font-size: 1.3em;
+    }
+    /* -------------------------------------------- Fin responsive section lieu ----------------------------------------*/
+    /* ------------------------------------- Debut responsive section les equipements ----------------------------------*/
+    .tools h1{
+        font-size: 3em;
+    }
+    [class*="line-tools-"]{
+        width: 95%;
+        margin: 0%;
+        margin-top: 2%;
+        display: flex;
+        flex-direction: row;
+    }
+    [class*="img-tools-"]{
+        width: 100%;
+        margin: 1%;
+        background-position: right;
+        background-position-x: 65%;
+    }
+    /* ---------------------------------------- Fin responsive section equipements -------------------------------------*/
+    /* -------------------------------------- Debut responsive section courage et tarif --------------------------------*/
+    .courage-box{
+        height: 70%;
+        margin-top: 10%;
+    }
+    .courage-box h1{
+        font-size: 7em;
+    }
+    .tarif h1{
+        font-size: 3em;
+        margin: -2%;
+    }
+    .tarif aside h3{
+        font-size: 1.1em;
+    }
+    [class*="tarif-"]{
+        flex-direction: row;
+    }
+    .tarif-basic aside, .tarif-pro aside{
+        width: 100%;
+        font-size: 2.5em;
+        margin-top: 2%;
+        height: 50%;
+        line-height: 1em;
+    }
+    .tarif-pro{
+        padding-left: 25%;
+        width: 50%;
+    }
+
+    .basic h3, .complet h3{
+        margin-top: 2%;
+    }
+    .complet p, .basic p{
+        font-size: 2em;
+        padding-top: -5px;
+        padding-bottom: -5px;
+    }
+    span{
+        display: block;
+    }
+    .chiffre{
+        font-size: 2.2em;
+    }
+    .gauche{
+        font-size: 0.6em;
+        line-height: 1.7em;
+    }
+    .options{
+        font-size: 0.4em;
+    }
+    .icon{
+        margin: -1.5%;
+    }
+    /* --------------------------------------------- Fin responsive section courage et tarif ------------------------------------*/
+    /* --------------------------------------------- Debut responsive section contact -------------------------------------------*/
+    .contact{
+        width: 100%;
+    }
+    .contact h2{
+        font-size: 3em;
+        margin-top: 3%;
+    }
+    form{
+        width: 70%;
+        margin: 15%;
+        margin-top: 2%;
+    }
+    form p{
+        text-align: left;
+        font-size: 1em;
+    }
+    input, textarea{
+        line-height: 2em;
+    }
+    
+    form button{
+        border-radius: 4px;
+    }
+    /* -------------------------------------------------- Fin style section contact ----------------------------------------*/
+}
+
+/* ******************************************************************************************************************** */
+/* ******************************************* min-width: 1024px and max-width: 1200px ********************************** */
+/* ******************************************************************************************************************** */
+@media screen and (min-width: 1200px) and (max-width: 1350px)
+{
+    /*--------------------------------------- Debut responsive html, body ----------------------------------------------*/
+    html, body{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y: 50%;
+        background-position-x: 50%;
+
+    }
+    /* Fin style html, body */
+    /* -------------------header---------------- */
+    header{
+        background-size: 120em;
+        background-position-x: 50%;
+        background-position-y: 8%;
+        height: 90%;
+    }
+    /* Fin style header */
+    /* -------------------------Debut style barre de navigation -------------------------------------*/
+    nav li a{
+        font-size: 1.2em;
+    }
+    /*---------------------------------------------- Fin barre de navigation -------------------------------------------*/
+
+    /*------------------------------------------------ Debut banniere --------------------------------------------------*/
+    .banner{
+        margin-top: -5%;
+    }
+    .banner h1{
+        font-size: 5.6em;
+        margin-top: 25%;
+    }
+    .banner p{
+        font-size: 1.5em;
+    }
+    .banner button{
+        border-radius: 4px;
+        font-size: medium  ;
+    }
+    button{
+        width: 10em;
+        line-height: 2.5em;
+    }
+    /*----------------------------------------------- Fin responsive banniere -----------------------------------------*/
+    /* ------------------------------------------ Fin responsive barre de navigation ----------------------------------*/
+
+    /* ------------------------------------- Debut responsive section se prendre en main ------------------------------*/
+    /*-------------------------------------------- Debut responsive section home --------------------------------------*/
+    h2{
+        font-size: 2.5em;
+    }
+    /*---------------------------------------- Debut responsive section proposition -----------------------------------*/
+    .proposition{
+        flex-direction: row;
+        margin-left: 5%;
+    }
+    .propo{
+        margin: 2%;
+        width: 85%;
+        flex-direction: column;
+    }
+    [class*="img-"]{
+        line-height: 25em;
+        background-position: center;
+        background-size: cover;
+    }
+    .presentation{
+        text-align: center;
+        font-size: 1.3em;
+    }
+    /* ---------------------------------- Fin responsive section proposition ----------------------------------------*/
+    /* ----------------------------------- Debut responsive style section lieux -------------------------------------*/
+    .lieux{
+        flex-direction: row;
+    }
+    .lieu h3{
+        font-size: 2.5em;
+        margin-top: -2%;
+    }
+    .lieu p{
+        font-size: 1.3em;
+    }
+    /* -------------------------------------------- Fin responsive section lieu ----------------------------------------*/
+    /* ------------------------------------- Debut responsive section les equipements ----------------------------------*/
+    .tools h1{
+        font-size: 3em;
+    }
+    [class*="line-tools-"]{
+        width: 95%;
+        margin: 0%;
+        margin-top: 2%;
+        display: flex;
+        flex-direction: row;
+    }
+    [class*="img-tools-"]{
+        width: 100%;
+        margin: 1%;
+        background-position: right;
+        background-position-x: 65%;
+    }
+    /* ---------------------------------------- Fin responsive section equipements -------------------------------------*/
+    /* -------------------------------------- Debut responsive section courage et tarif --------------------------------*/
+    .courage-box{
+        height: 70%;
+        margin-top: 10%;
+    }
+    .courage-box h1{
+        font-size: 7em;
+    }
+    .tarif h1{
+        font-size: 3em;
+        margin: -2%;
+    }
+    .tarif aside h3{
+        font-size: 1.1em;
+    }
+    [class*="tarif-"]{
+        flex-direction: row;
+    }
+    .tarif-basic aside, .tarif-pro aside{
+        width: 100%;
+        font-size: 2.5em;
+        margin-top: 2%;
+        height: 50%;
+        line-height: 1em;
+    }
+    .tarif-pro{
+        padding-left: 25%;
+        width: 50%;
+    }
+
+    .basic h3, .complet h3{
+        margin-top: 2%;
+    }
+    .complet p, .basic p{
+        font-size: 2em;
+        padding-top: -5px;
+        padding-bottom: -5px;
+    }
+    span{
+        display: block;
+    }
+    .chiffre{
+        font-size: 2.2em;
+    }
+    .gauche{
+        font-size: 0.6em;
+        line-height: 1.7em;
+    }
+    .options{
+        font-size: 0.4em;
+    }
+    .icon{
+        margin: -1.5%;
+    }
+    /* --------------------------------------------- Fin responsive section courage et tarif ------------------------------------*/
+    /* --------------------------------------------- Debut responsive section contact -------------------------------------------*/
+    .contact{
+        width: 100%;
+    }
+    .contact h2{
+        font-size: 3em;
+        margin-top: 3%;
+    }
+    form{
+        width: 70%;
+        margin: 15%;
+        margin-top: 2%;
+    }
+    form p{
+        text-align: left;
+        font-size: 1em;
+    }
+    input, textarea{
+        line-height: 3-tem;
+    }
+    
+    form button{
+        border-radius: 4px;
+    }
+    /* -------------------------------------------------- Fin style section contact ----------------------------------------*/
+}
